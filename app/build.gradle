@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -18,6 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -30,21 +30,18 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     ///////////////////////////////
+    implementation 'com.github.hyb1996:Auto.js-ApkBuilder:1.0.1'
+    //coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.2.1'
 
+    //litepal
+    implementation 'org.litepal.android:kotlin:3.0.0'
 
-
-
-    //dbflow
-    kapt  "com.github.Raizlabs.DBFlow:dbflow-processor:4.1.2"
-    implementation "com.github.Raizlabs.DBFlow:dbflow-core:4.1.2"
-    implementation "com.github.Raizlabs.DBFlow:dbflow:4.1.2"
-    implementation "com.github.Raizlabs.DBFlow:dbflow-rx2:4.1.2"
     //joda time
     implementation 'joda-time:joda-time:2.9.9'
     // Tasker Plugin
     implementation 'com.twofortyfouram:android-plugin-client-sdk-for-locale:4.0.3'
-    // Flurry
-    implementation 'com.flurry.android:analytics:7.0.0@aar'
 
     implementation project(path: ':common')
     implementation project(path: ':automator')
