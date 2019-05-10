@@ -5,9 +5,8 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
-
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import com.stardust.app.OnActivityResultDelegate;
 import com.stardust.app.SimpleActivityLifecycleCallbacks;
 import com.stardust.autojs.core.accessibility.AccessibilityBridge;
@@ -32,7 +31,6 @@ import com.stardust.view.accessibility.AccessibilityInfoProvider;
 import com.stardust.view.accessibility.AccessibilityNotificationObserver;
 import com.stardust.view.accessibility.AccessibilityService;
 import com.stardust.view.accessibility.LayoutInspector;
-
 import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.OpenCVLoader;
 

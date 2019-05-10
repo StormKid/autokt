@@ -8,9 +8,6 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
     buildTypes {
         release {
@@ -47,9 +44,11 @@ dependencies {
     //RootShell
     implementation 'com.github.Stericson:RootShell:1.6'
     // Gson
-    implementation 'com.google.code.gson:gson:2.8.5'
+    api 'com.google.code.gson:gson:2.8.5'
     // Terminal emulator
-    implementation project(path: ':common')
-    implementation project(path: ':automator')
+    api project(path: ':common')
+    api project(path: ':automator')
+
+
 }
 
