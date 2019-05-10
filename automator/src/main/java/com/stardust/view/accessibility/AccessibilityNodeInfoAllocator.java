@@ -1,18 +1,12 @@
 package com.stardust.view.accessibility;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.util.Log;
 import android.view.accessibility.AccessibilityNodeInfo;
-
+import androidx.annotation.Nullable;
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import com.stardust.automator.BuildConfig;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by Stardust on 2017/3/22.

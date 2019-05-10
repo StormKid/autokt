@@ -1,8 +1,7 @@
 package com.stardust.autojs.rhino;
 
-import android.support.annotation.VisibleForTesting;
 
-
+import androidx.annotation.VisibleForTesting;
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.ContextFactory;
 import org.mozilla.javascript.SecurityController;

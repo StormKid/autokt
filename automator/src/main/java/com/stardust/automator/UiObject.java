@@ -1,30 +1,21 @@
 package com.stardust.automator;
 
 import android.graphics.Rect;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.util.Log;
 import android.view.accessibility.AccessibilityNodeInfo;
-
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import com.stardust.view.accessibility.AccessibilityNodeInfoAllocator;
 import com.stardust.view.accessibility.AccessibilityNodeInfoHelper;
-import com.stardust.view.accessibility.AccessibilityService;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_CONTEXT_CLICK;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SCROLL_DOWN;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SCROLL_LEFT;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SCROLL_RIGHT;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SCROLL_TO_POSITION;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SCROLL_UP;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SET_PROGRESS;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SHOW_ON_SCREEN;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.*;
+
 
 /**
  * Created by Stardust on 2017/3/9.

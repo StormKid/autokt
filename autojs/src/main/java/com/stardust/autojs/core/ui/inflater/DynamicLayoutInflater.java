@@ -2,57 +2,30 @@ package com.stardust.autojs.core.ui.inflater;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.TabLayout;
-import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.InflateException;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.DatePicker;
-import android.widget.EditText;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.ProgressBar;
-import android.widget.RadioGroup;
-import android.widget.Spinner;
-import android.widget.TextView;
-import android.widget.TimePicker;
-
-import com.stardust.autojs.core.ui.inflater.inflaters.AppBarInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.BaseViewInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.DatePickerInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.FrameLayoutInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.ImageViewInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.LinearLayoutInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.ProgressBarInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.RadioGroupInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.SpinnerInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.TabLayoutInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.TextViewInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.TimePickerInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.ToolbarInflater;
-import com.stardust.autojs.core.ui.inflater.inflaters.ViewGroupInflater;
+import android.widget.*;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.material.appbar.AppBarLayout;
+import com.stardust.autojs.core.ui.inflater.inflaters.*;
 import com.stardust.autojs.core.ui.inflater.util.Res;
 import com.stardust.autojs.core.ui.widget.JsTabLayout;
 import com.stardust.autojs.core.ui.widget.JsToolbar;
 import com.stardust.autojs.core.ui.xml.XmlConverter;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.ByteArrayInputStream;
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 
 
 public class DynamicLayoutInflater {

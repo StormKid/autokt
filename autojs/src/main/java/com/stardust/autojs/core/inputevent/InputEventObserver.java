@@ -1,9 +1,8 @@
 package com.stardust.autojs.core.inputevent;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
-
+import androidx.annotation.NonNull;
 import com.stardust.autojs.core.record.inputevent.EventFormatException;
 import com.stardust.autojs.core.util.Shell;
 

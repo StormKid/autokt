@@ -1,36 +1,10 @@
 package com.stardust.autojs.core.ui.xml;
 
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.TabLayout;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
-import android.webkit.WebView;
-import android.widget.CheckBox;
-import android.widget.DatePicker;
-import android.widget.ProgressBar;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.ScrollView;
-import android.widget.SeekBar;
-import android.widget.Spinner;
-import android.widget.TimePicker;
-
+import android.widget.*;
+import androidx.drawerlayout.widget.DrawerLayout;
+import com.google.android.material.appbar.AppBarLayout;
 import com.stardust.autojs.core.graphics.ScriptCanvasView;
-import com.stardust.autojs.core.ui.widget.JsButton;
-import com.stardust.autojs.core.ui.widget.JsEditText;
-import com.stardust.autojs.core.ui.widget.JsFrameLayout;
-import com.stardust.autojs.core.ui.widget.JsGridView;
-import com.stardust.autojs.core.ui.widget.JsImageView;
-import com.stardust.autojs.core.ui.widget.JsLinearLayout;
-import com.stardust.autojs.core.ui.widget.JsListView;
-import com.stardust.autojs.core.ui.widget.JsRelativeLayout;
-import com.stardust.autojs.core.ui.widget.JsTabLayout;
-import com.stardust.autojs.core.ui.widget.JsTextView;
-import com.stardust.autojs.core.ui.widget.JsToolbar;
-import com.stardust.autojs.core.ui.widget.JsViewPager;
-import com.stardust.autojs.core.ui.widget.JsWebView;
-
+import com.stardust.autojs.core.ui.widget.*;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -38,13 +12,11 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
-import java.io.IOException;
-import java.io.StringReader;
-import java.util.Date;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
+import java.io.StringReader;
 
 /**
  * Created by Stardust on 2017/5/14.

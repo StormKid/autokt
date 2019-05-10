@@ -1,27 +1,33 @@
 package com.stardust.automator;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
-import android.view.accessibility.AccessibilityNodeInfo;
-
+import androidx.annotation.Nullable;
 import com.stardust.util.Consumer;
-import com.stardust.util.Func1;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.*;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_CONTEXT_CLICK;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SCROLL_DOWN;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SCROLL_LEFT;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SCROLL_RIGHT;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SCROLL_TO_POSITION;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SCROLL_UP;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SET_PROGRESS;
-import static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SHOW_ON_SCREEN;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_ACCESSIBILITY_FOCUS;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_CLEAR_ACCESSIBILITY_FOCUS;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_CLEAR_FOCUS;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_CLICK;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_COLLAPSE;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_COPY;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_CUT;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_DISMISS;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_EXPAND;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_FOCUS;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_LONG_CLICK;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_PASTE;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_SCROLL_BACKWARD;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_SCROLL_FORWARD;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_SELECT;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_SET_SELECTION;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTION_SET_TEXT;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.*;
+import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.*;
+
 
 /**
  * Created by Stardust on 2017/3/9.

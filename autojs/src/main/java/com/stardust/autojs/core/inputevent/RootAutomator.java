@@ -1,12 +1,9 @@
 package com.stardust.autojs.core.inputevent;
 
 import android.content.Context;
-import android.os.Build;
 import android.os.SystemClock;
-import android.support.annotation.Nullable;
 import android.view.ViewConfiguration;
-
-import com.stardust.autojs.core.inputevent.InputDevices;
+import androidx.annotation.Nullable;
 import com.stardust.autojs.core.util.ProcessShell;
 import com.stardust.autojs.engine.RootAutomatorEngine;
 import com.stardust.autojs.runtime.api.AbstractShell;
@@ -15,17 +12,7 @@ import com.stardust.util.ScreenMetrics;
 
 import java.io.IOException;
 
-import static com.stardust.autojs.core.inputevent.InputEventCodes.ABS_MT_POSITION_X;
-import static com.stardust.autojs.core.inputevent.InputEventCodes.ABS_MT_POSITION_Y;
-import static com.stardust.autojs.core.inputevent.InputEventCodes.ABS_MT_TOUCH_MAJOR;
-import static com.stardust.autojs.core.inputevent.InputEventCodes.ABS_MT_TRACKING_ID;
-import static com.stardust.autojs.core.inputevent.InputEventCodes.BTN_TOOL_FINGER;
-import static com.stardust.autojs.core.inputevent.InputEventCodes.BTN_TOUCH;
-import static com.stardust.autojs.core.inputevent.InputEventCodes.EV_ABS;
-import static com.stardust.autojs.core.inputevent.InputEventCodes.EV_KEY;
-import static com.stardust.autojs.core.inputevent.InputEventCodes.EV_SYN;
-import static com.stardust.autojs.core.inputevent.InputEventCodes.SYN_MT_REPORT;
-import static com.stardust.autojs.core.inputevent.InputEventCodes.SYN_REPORT;
+import static com.stardust.autojs.core.inputevent.InputEventCodes.*;
 
 /**
  * Created by Stardust on 2017/7/16.

@@ -2,16 +2,11 @@ package com.stardust.autojs.core.looper;
 
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.CallSuper;
-
-import com.stardust.autojs.engine.RhinoJavaScriptEngine;
-import com.stardust.autojs.runtime.ScriptBridges;
+import androidx.annotation.CallSuper;
 import com.stardust.autojs.runtime.ScriptRuntime;
 import com.stardust.autojs.runtime.exception.ScriptInterruptedException;
 import com.stardust.concurrent.VolatileBox;
 import com.stardust.lang.ThreadCompat;
-
-import org.mozilla.javascript.NativeArray;
 
 import java.util.concurrent.ConcurrentHashMap;
 

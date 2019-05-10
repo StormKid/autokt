@@ -2,11 +2,10 @@ package com.stardust.util;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.annotation.IdRes;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RelativeLayout;
+import androidx.annotation.IdRes;
 
 /**
  * Created by Stardust on 2017/1/24.

@@ -1,9 +1,8 @@
 package com.stardust.autojs.core.record.inputevent;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
 import android.util.Log;
-
+import androidx.annotation.NonNull;
 import com.stardust.autojs.core.inputevent.InputEventCodes;
 import com.stardust.autojs.core.inputevent.InputEventObserver;
 import com.stardust.autojs.core.inputevent.RootAutomator;

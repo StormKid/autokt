@@ -5,8 +5,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.support.annotation.NonNull;
-
+import androidx.annotation.NonNull;
 import com.stardust.autojs.core.eventloop.EventEmitter;
 import com.stardust.autojs.core.looper.Loopers;
 import com.stardust.autojs.runtime.ScriptBridges;
@@ -17,7 +16,6 @@ import java.lang.reflect.Field;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
  * Created by Stardust on 2018/2/5.

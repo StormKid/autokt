@@ -1,8 +1,7 @@
 package com.stardust.autojs.core.ui.widget;
 
 import android.content.Context;
-import android.support.v7.widget.GridLayoutManager;
-
+import androidx.recyclerview.widget.GridLayoutManager;
 import com.stardust.autojs.runtime.ScriptRuntime;
 
 /**

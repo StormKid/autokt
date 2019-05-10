@@ -1,11 +1,9 @@
 package com.stardust.view.accessibility;
 
 import android.accessibilityservice.AccessibilityService;
-import android.support.annotation.Nullable;
 import android.view.accessibility.AccessibilityEvent;
-import android.view.accessibility.AccessibilityNodeInfo;
+import androidx.annotation.Nullable;
 
-import java.util.List;
 import java.util.Set;
 
 /**

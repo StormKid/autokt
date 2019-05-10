@@ -1,8 +1,6 @@
 package com.stardust.autojs.engine;
 
-import android.support.annotation.CallSuper;
-
-import com.stardust.autojs.runtime.exception.ScriptException;
+import androidx.annotation.CallSuper;
 import com.stardust.autojs.script.ScriptSource;
 
 import java.util.Map;

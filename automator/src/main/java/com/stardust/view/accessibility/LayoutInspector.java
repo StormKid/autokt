@@ -1,14 +1,10 @@
 package com.stardust.view.accessibility;
 
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.view.accessibility.AccessibilityNodeInfo;
+import androidx.annotation.RequiresApi;
 
-import com.stardust.view.accessibility.AccessibilityService;
-import com.stardust.util.UnderuseExecutors;
-
-import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;

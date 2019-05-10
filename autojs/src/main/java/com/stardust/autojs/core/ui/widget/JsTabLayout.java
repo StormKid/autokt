@@ -1,13 +1,10 @@
 package com.stardust.autojs.core.ui.widget;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
-
+import androidx.viewpager.widget.ViewPager;
+import com.google.android.material.tabs.TabLayout;
 import com.stardust.autojs.runtime.api.UI;
-
 import org.mozilla.javascript.NativeObject;
 
 public class JsTabLayout extends TabLayout {

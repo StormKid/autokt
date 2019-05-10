@@ -1,15 +1,11 @@
 package com.stardust.autojs.core.ui.widget;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import com.stardust.autojs.core.ui.inflater.ShouldCallOnFinishInflate;
 
 public class JsViewPager extends ViewPager implements ShouldCallOnFinishInflate {

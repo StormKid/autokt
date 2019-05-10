@@ -1,11 +1,9 @@
 package com.stardust.autojs.core.ui.inflater.inflaters;
 
-import android.content.Context;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
-
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import com.stardust.autojs.R;
 import com.stardust.autojs.core.ui.inflater.ResourceParser;
 import com.stardust.autojs.core.ui.inflater.ViewCreator;

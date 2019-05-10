@@ -15,24 +15,20 @@ import android.os.Build;
 import android.os.PowerManager;
 import android.os.Vibrator;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.telephony.TelephonyManager;
-import android.view.Display;
-import android.view.WindowManager;
-
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.stardust.autojs.R;
 import com.stardust.autojs.runtime.exception.ScriptException;
 import com.stardust.pio.PFiles;
 import com.stardust.pio.UncheckedIOException;
 import com.stardust.util.ScreenMetrics;
+import ezy.assist.compat.SettingsCompat;
 
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Collections;
 import java.util.List;
-
-import ezy.assist.compat.SettingsCompat;
 
 /**
  * Created by Stardust on 2017/12/2.

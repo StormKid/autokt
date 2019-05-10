@@ -1,7 +1,7 @@
 package com.stardust.autojs.core.record.inputevent;
 
-import android.support.annotation.NonNull;
 
+import androidx.annotation.NonNull;
 import com.stardust.autojs.core.inputevent.InputEventObserver;
 
 import static com.stardust.util.ScreenMetrics.getDeviceScreenHeight;

@@ -4,14 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
-
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import com.stardust.autojs.core.eventloop.EventEmitter;
 import com.stardust.autojs.core.eventloop.SimpleEvent;
 import com.stardust.autojs.engine.JavaScriptEngine;
@@ -22,7 +21,6 @@ import com.stardust.autojs.runtime.ScriptRuntime;
 import com.stardust.autojs.runtime.api.UI;
 import com.stardust.autojs.script.ScriptSource;
 import com.stardust.util.IntentExtras;
-
 import org.mozilla.javascript.NativeObject;
 
 /**

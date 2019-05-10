@@ -1,9 +1,8 @@
 package com.stardust.autojs.core.ui.inflater.inflaters;
 
-import android.support.annotation.Nullable;
-import android.support.v7.widget.GridLayoutManager;
 import android.view.ViewGroup;
-
+import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.GridLayoutManager;
 import com.stardust.autojs.core.ui.inflater.ResourceParser;
 import com.stardust.autojs.core.ui.inflater.ViewCreator;
 import com.stardust.autojs.core.ui.widget.JsGridView;

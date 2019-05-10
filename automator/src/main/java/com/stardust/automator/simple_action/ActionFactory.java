@@ -3,9 +3,8 @@ package com.stardust.automator.simple_action;
 import android.graphics.Rect;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
 import android.view.accessibility.AccessibilityNodeInfo;
-
+import androidx.annotation.RequiresApi;
 import com.stardust.automator.UiObject;
 import com.stardust.util.MapEntries;
 

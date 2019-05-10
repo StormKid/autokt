@@ -1,17 +1,13 @@
 package com.stardust.view.accessibility;
 
 import android.os.Build;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
+import androidx.annotation.Nullable;
 
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-import java.util.SortedMap;
-import java.util.TreeMap;
+import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;

@@ -2,20 +2,8 @@ package com.stardust.automator;
 
 import android.graphics.Rect;
 import android.os.Build;
-import android.support.annotation.Nullable;
-
-import com.stardust.automator.filter.BooleanFilter;
-import com.stardust.automator.filter.BoundsFilter;
-import com.stardust.automator.filter.ClassNameFilter;
-import com.stardust.automator.filter.DescFilter;
-import com.stardust.automator.filter.DfsFilter;
-import com.stardust.automator.filter.IdFilter;
-import com.stardust.automator.filter.IntFilter;
-import com.stardust.automator.filter.ListFilter;
-import com.stardust.automator.filter.PackageNameFilter;
-import com.stardust.automator.filter.TextFilter;
-import com.stardust.automator.simple_action.Able;
-import com.stardust.util.Supplier;
+import androidx.annotation.Nullable;
+import com.stardust.automator.filter.*;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

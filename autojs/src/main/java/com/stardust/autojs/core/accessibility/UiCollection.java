@@ -1,26 +1,13 @@
 package com.stardust.autojs.core.accessibility;
 
-import android.support.annotation.Nullable;
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
-import android.view.accessibility.AccessibilityNodeInfo;
-
+import androidx.annotation.Nullable;
 import com.stardust.automator.ActionArgument;
 import com.stardust.automator.UiGlobalSelector;
 import com.stardust.automator.UiObject;
 import com.stardust.automator.UiObjectCollection;
-import com.stardust.util.ArrayUtils;
 import com.stardust.util.Consumer;
-import com.stardust.util.Func1;
-
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.NativeArray;
 import org.mozilla.javascript.NativeJavaObject;
 import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.ast.Scope;
-
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by Stardust on 2017/10/31.

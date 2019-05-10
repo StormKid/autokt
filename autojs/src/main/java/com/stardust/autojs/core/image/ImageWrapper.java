@@ -4,10 +4,8 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.media.Image;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
-
+import androidx.annotation.RequiresApi;
 import com.stardust.pio.UncheckedIOException;
-
 import org.opencv.android.Utils;
 import org.opencv.core.Mat;
 import org.opencv.highgui.Highgui;

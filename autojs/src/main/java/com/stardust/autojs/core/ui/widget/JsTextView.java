@@ -3,10 +3,10 @@ package com.stardust.autojs.core.ui.widget;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.widget.TextView;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 /**
  * Created by Stardust on 2017/5/15.

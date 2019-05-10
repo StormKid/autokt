@@ -1,8 +1,6 @@
 package com.stardust.autojs.engine;
 
-import android.support.annotation.CallSuper;
 
-import com.stardust.autojs.execution.ScriptExecution;
 import com.stardust.autojs.runtime.ScriptRuntime;
 import com.stardust.autojs.script.JavaScriptSource;
 import com.stardust.autojs.script.ScriptSource;

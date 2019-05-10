@@ -1,20 +1,11 @@
 package com.stardust.autojs.core.eventloop;
 
-import android.support.annotation.NonNull;
-import android.view.View;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
-
-
+import androidx.annotation.NonNull;
 import com.stardust.autojs.core.looper.Timer;
 import com.stardust.autojs.runtime.ScriptBridges;
 import com.stardust.autojs.runtime.exception.ScriptException;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.TooManyListenersException;
+import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**

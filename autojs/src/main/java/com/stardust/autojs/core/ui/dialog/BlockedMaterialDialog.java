@@ -4,9 +4,8 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.os.Looper;
-import android.support.annotation.Nullable;
 import android.view.WindowManager;
-
+import androidx.annotation.Nullable;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.Theme;

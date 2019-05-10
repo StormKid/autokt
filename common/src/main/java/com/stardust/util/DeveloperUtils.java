@@ -4,23 +4,14 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Service;
 import android.content.Context;
-import android.content.pm.ActivityInfo;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.ServiceInfo;
-import android.content.pm.Signature;
-import android.support.annotation.Nullable;
+import android.content.pm.*;
 import android.util.Base64;
-import android.util.Log;
-
-import com.stardust.R;
+import androidx.annotation.Nullable;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
-import java.lang.reflect.Method;
 import java.security.MessageDigest;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 

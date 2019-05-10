@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 17
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -15,12 +15,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
     }
+
 }
 
 
@@ -38,7 +37,7 @@ dependencies {
     implementation 'com.github.hyb1996:OpenCvLib:2.4.13.4-imgproc'
     implementation 'com.makeramen:roundedimageview:2.3.0'
     // OkHttp
-    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
     //JDeferred
     implementation 'org.jdeferred:jdeferred-android-aar:1.2.6'
     //RootShell
@@ -48,6 +47,10 @@ dependencies {
     // Terminal emulator
     api project(path: ':common')
     api project(path: ':automator')
+    implementation files('libs\\emulatorview-release.aar')
+    implementation files('libs\\libtermexec-release.aar')
+    implementation files('libs\\rhino-1.7.7.2.jar')
+    implementation files('libs\\term-debug.aar')
 
 
 }

@@ -9,35 +9,28 @@ import android.graphics.Matrix;
 import android.media.Image;
 import android.os.Build;
 import android.os.Handler;
-import android.support.annotation.RequiresApi;
 import android.util.Base64;
 import android.view.Display;
-import android.view.Surface;
 import android.view.WindowManager;
-
+import androidx.annotation.RequiresApi;
 import com.stardust.autojs.annotation.ScriptVariable;
 import com.stardust.autojs.core.image.ColorFinder;
 import com.stardust.autojs.core.image.ImageWrapper;
 import com.stardust.autojs.core.image.OpenCVHelper;
+import com.stardust.autojs.core.image.TemplateMatching;
 import com.stardust.autojs.core.image.capture.ScreenCaptureRequester;
 import com.stardust.autojs.core.image.capture.ScreenCapturer;
-import com.stardust.autojs.core.image.TemplateMatching;
 import com.stardust.autojs.core.ui.inflater.util.Drawables;
 import com.stardust.autojs.runtime.ScriptRuntime;
 import com.stardust.autojs.runtime.exception.ScriptInterruptedException;
 import com.stardust.concurrent.VolatileDispose;
 import com.stardust.pio.UncheckedIOException;
 import com.stardust.util.ScreenMetrics;
-
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
 import org.opencv.core.Rect;
 
-import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 

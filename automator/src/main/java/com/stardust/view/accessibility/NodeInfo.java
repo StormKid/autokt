@@ -1,12 +1,10 @@
 package com.stardust.view.accessibility;
 
 import android.graphics.Rect;
-import android.support.annotation.Keep;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.view.accessibility.AccessibilityNodeInfo;
-
+import androidx.annotation.Keep;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.stardust.automator.UiObject;
 
 import java.util.ArrayList;

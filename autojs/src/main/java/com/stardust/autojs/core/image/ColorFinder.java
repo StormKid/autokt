@@ -2,16 +2,9 @@ package com.stardust.autojs.core.image;
 
 import android.graphics.Color;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
-
+import androidx.annotation.RequiresApi;
 import com.stardust.util.ScreenMetrics;
-
-import org.opencv.core.Core;
-import org.opencv.core.Mat;
-import org.opencv.core.MatOfPoint;
-import org.opencv.core.Point;
-import org.opencv.core.Rect;
-import org.opencv.core.Scalar;
+import org.opencv.core.*;
 
 /**
  * Created by Stardust on 2017/5/18.
