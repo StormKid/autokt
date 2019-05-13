@@ -31,27 +31,26 @@ dependencies {
     implementation('com.afollestad.material-dialogs:core:0.9.2.3', {
         exclude group: 'com.android.support'
     })
-    implementation 'com.android.support:design:28.0.0'
-    implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.github.hyb1996:EnhancedFloaty:0.21'
     implementation 'com.github.hyb1996:OpenCvLib:2.4.13.4-imgproc'
     implementation 'com.makeramen:roundedimageview:2.3.0'
-    // OkHttp
-    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
     //JDeferred
     implementation 'org.jdeferred:jdeferred-android-aar:1.2.6'
     //RootShell
     implementation 'com.github.Stericson:RootShell:1.6'
-    // Gson
-    api 'com.google.code.gson:gson:2.8.5'
     // Terminal emulator
     api project(path: ':common')
     api project(path: ':automator')
+    //noinspection GradlePath
     implementation files('libs\\emulatorview-release.aar')
+    //noinspection GradlePath
     implementation files('libs\\libtermexec-release.aar')
+    //noinspection GradlePath
     implementation files('libs\\rhino-1.7.7.2.jar')
+    //noinspection GradlePath
     implementation files('libs\\term-debug.aar')
-
+    api project(path: ':okhttpkt')
+    implementation 'com.google.android.material:material:1.0.0'
 
 }
 

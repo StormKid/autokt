@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">autokt</string>
+    <string name="finish_flag" translatable="false">运行结束</string>
+
 </resources>
