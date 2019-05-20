@@ -1,1 +1,1 @@
-include ':app', ':common', ':automator', ':autojs', ':okhttpkt'
+include ':app', ':common', ':automator', ':autojs', ':oktool'

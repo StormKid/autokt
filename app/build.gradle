@@ -47,8 +47,6 @@ dependencies {
     // Tasker Plugin
     implementation 'com.twofortyfouram:android-plugin-client-sdk-for-locale:4.0.3'
 
-    implementation project(path: ':common')
-    implementation project(path: ':automator')
     implementation project(path: ':autojs')
 
     implementation 'com.google.android.gms:play-services-ads:17.2.0'
